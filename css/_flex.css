@@ -1,0 +1,90 @@
+.flex { display: flex; }
+
+/* Flex wrap */
+
+.flex-wrap { flex-wrap: wrap; }
+
+/* Flex direction */
+
+.flex-row { flex-direction: row; }
+.flex-col { flex-direction: column; }
+.flex-row-rev { flex-direction: row-reverse; }
+.flex-col-rev { flex-direction: column-reverse; }
+
+/* Justify content */
+
+.justify-start { justify-content: start; }
+.justify-center { justify-content: center; }
+.justify-end { justify-content: end; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+.justify-evenly { justify-content: space-evenly; }
+
+/* Align items */
+.align-center { align-items: center; }
+.align-start { align-items: start; }
+.align-end { align-items: end; }
+
+/* Tablet mode */
+
+@media all and (max-width: 991px) {
+  .flex-md { display: flex; }
+
+  /* Flex wrap */
+
+  .flex-wrap-md { flex-wrap: wrap; }
+
+  /* Flex direction */
+  
+  .flex-row-md { flex-direction: row; }
+  .flex-col-md { flex-direction: column; }
+  .flex-row-rev-md { flex-direction: row-reverse; }
+  .flex-col-rev-md { flex-direction: column-reverse; }
+
+  /* Justify content */
+  
+  .justify-start-md { justify-content: start; }
+  .justify-center-md { justify-content: center; }
+  .justify-end-md { justify-content: end; }
+  .justify-between-md { justify-content: space-between; }
+  .justify-around-md { justify-content: space-around; }
+  .justify-evenly-md { justify-content: space-evenly; }
+
+  /* Align items */
+  
+  .align-center-md { align-items: center; }
+  .align-start-md { align-items: start; }
+  .align-end-md { align-items: end; }
+}
+
+/* Tablet mode */
+
+@media all and (max-width: 525px) {
+  .flex-sm { display: flex; }
+
+  /* Flex wrap */
+
+  .flex-wrap-sm { flex-wrap: wrap; }
+
+  /* Flex direction */
+  
+  .flex-row-sm { flex-direction: row; }
+  .flex-col-sm { flex-direction: column; }
+  .flex-row-rev-sm { flex-direction: row-reverse; }
+  .flex-col-rev-sm { flex-direction: column-reverse; }
+
+  /* Justify content */
+  
+  .justify-start-sm { justify-content: start; }
+  .justify-center-sm { justify-content: center; }
+  .justify-end-sm { justify-content: end; }
+  .justify-between-sm { justify-content: space-between; }
+  .justify-around-sm { justify-content: space-around; }
+  .justify-evenly-sm { justify-content: space-evenly; }
+
+  /* Align items */
+  
+  .align-center-sm { align-items: center; }
+  .align-start-sm { align-items: start; }
+  .align-end-sm { align-items: end; }
+}
